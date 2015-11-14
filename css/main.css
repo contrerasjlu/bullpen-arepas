@@ -1,6 +1,5 @@
   body {
     background: #DF9745;
-    font-family: 'Asap', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -39,14 +38,18 @@
   ul {
     list-style: none;
   }
-
-  h1, h2, h3, h4, h5, h6 {
+  h1{
+    font-family: 'BERNIER™ Distressed', sans-serif;
+    font-weight: 300;´
+	color: #fff;
+	}	
+ h2, h3, h4, h5, h6 {
     font-family: 'Asap', sans-serif;
     font-weight: 300;
   }
 
   h1{
-    color: #fff;
+
   }
 
   h2{
@@ -2788,3 +2791,7 @@ padding:10px;border-bottom:1px solid #e5e5e5;
     width: 100%;
     height: 100%;
 }
+
+
+
+@font-face{font-family:'BERNIER™ Distressed';src:url(../fonts/BERNIERI_Distressed.eot);src:url(../fonts/BERNIERI_Distressed.eot?#iefix) format('embedded-opentype'),url(../fonts/BERNIERI_Distressed.woff) format('woff'),url(../fonts/BERNIERI_Distressed.ttf) format('truetype'),url(../fonts/BERNIERI_Distressed.svg) format('svg')}
